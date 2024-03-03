@@ -275,7 +275,7 @@ feat/S10P12D110-17-signup -> develop
 | Contributors | Role | Position |
 | ------------ | ---- | -------- |
 | 　오세영 | 팀장, <br /> Backend Lead | - 유저 플로우 작성 <br> - 스프링 시큐리티 적용 <br> - JWT filter 적용 <br> - 공통 응답 API 작성 <br> - 공통 에러 응답 API 작성 <br> - 카카오 소셜 로그인 구현 <br> - 도감 관련 API 작성 <br> - 유저 데이터 관련 API 작성 <br> - 간단한 Front API 작성 <br> - Infra 구성 ( AWS RDS, EC2, Nginx Reverse Proxy, Jenkins Pipeline, Dockerfile) |
-| 　전수민 | 팀원, <br /> Backend | - WebSocket 채팅 서버 <br> - 롤 API 담당하여 명세서 작성 <br> - 롤 LOCAL API 이용한 크롤링 <br> - socket s3를 이용한 이미지 업로드 |
+| 　전수민 | 팀원, <br /> Backend | - WebSocket 채팅 서버 구현(STOMP 적용) <br> - 롤 API 담당하여 명세서 작성 <br> - 롤 LOCAL API 이용한 크롤링 <br> - socket s3를 이용한 이미지 업로드 및 소켓 통신 시 이미지도 보낼 수 있도록 구현 <br> - 채팅 관련 API 작성 <br> - 배팅 관련 API 구현(스프링 스케줄러 이용) <br> - 채팅 Front 화면 견본 구현 <br> - 배팅 Front 화면 견본 구현 |
 | 　이수민 | 팀원, <br /> Backend, <br /> PM  | - SSE 이용한 실시간 알림, 확성기 기능 구현(Backend SseEmitter 적용, Frontend EventSourcePolyfill 적용) <br> - 아이템샵 구입(칭호, 강제칭찬권, 확성기) 관련 API 작성 <br> - 칭호 관련 API 작성 <br> - 친구 관련 API 작성 <br> - JUnit 서비스단 단위 테스트 작성 |
 | 　김상훈 | 팀원, <br /> Frontend Lead| - 일렉트론 포팅 및 개발 & PWA 포팅 <br> - 클라이언트 & 라이브 채팅창 연동 <br> - 선행기술 연구 <br> - UCC 제작 |
 | 　김지연 | 팀원, <br /> Frontend, <br /> 서기| - Notion 을 통해 협업 문서 관리 및 회의록 작성<br> - Figma 활용하여 디자인 및 와이어프레임 작성<br> - 카카오 로그인 API 활용하여 회원가입 및 로그인 구현<br> - 최초 로그인 구분 및 미 로그인 사용자 redirection 로직 개발<br> - 도감, 댓글 CRUD 개발<br> - json-server 를 활용해 mock api 테스트 진행<br> - React-Query 사용하여 비동기 호출 성능 개선 <br> - 도감 게시글 무한 스크롤 구현<br> - Zustand 를 이용하여 전역 상태관리<br> - CSS Key frame 사용하여 확성기 애니메이션 개발<br> - 404 Not Found 페이지 개발<br> - radix ui의 progress bar 사용하여 로딩중 화면 개발<br> - Tailwind css 활용하여 컴포넌트마다 필요한 ui사항 적용<br> - react-ga4 활용하여 google analytics 적용  |
